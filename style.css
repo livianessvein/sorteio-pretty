@@ -1,0 +1,175 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image:url("fundo-flores.jpg");
+  }
+  
+  #t1{
+    font-family:garamond;
+    font-size: 40px;
+  
+  }
+  #c1,#b2,.b1{
+    text-align: center;
+  }
+  #c1{
+      font-size: 23px;
+      width: 300px;
+      height: 30px;
+      margin: 7px;
+      padding: 5px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+  
+  }
+  
+  #t2{
+    font-family:garamond;
+  }
+  
+  #res{
+    font-family:fantasy;
+    font-size:40px;
+    color: #ffde38
+  }
+  
+  #txtres{
+    font-family:garamond;
+    color:black;
+    font-size: 20px;
+  }
+  div{
+    text-align: center;
+    margin-top: 180px;
+  
+  }
+  
+  
+  
+  .b1 {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 120px;
+  }
+  
+  .b1:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .b1:main,
+  .b1:focus {
+    user-select: auto;
+  }
+  
+  .b1:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .b1:disabled {
+    cursor: auto;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .b2 {
+    appearance: button;
+    background-color: #ffde38;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 120px;
+  }
+  
+  .b2:after {
+    background-clip: padding-box;
+    background-color: #eef85d;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .b2:main,
+  .b2:focus {
+    user-select: auto;
+  }
+  
+  .b2:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .b2:disabled {
+    cursor: auto;
+  }
+  
